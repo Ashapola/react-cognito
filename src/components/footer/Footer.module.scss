@@ -1,0 +1,15 @@
+.wrapper {
+	position: absolute;
+	width: 100vw;
+	height: 20vh;
+	bottom: 0;
+	z-index: -1;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+
+	.textbox {
+		position: absolute;
+		bottom: 5%;
+		right: 5%;
+		text-align: right;
+	}
+}

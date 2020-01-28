@@ -1,0 +1,29 @@
+@import 'index.module.scss';
+
+.wrapper {
+	@include center-object;
+	height: 100vh;
+	width: 100vw;
+	// background: linear-gradient(to left, rgba(grey, 0.9), rgba(grey, 0.9));
+	background: linear-gradient(0.25turn, rgba(#3f87a6, 0.5), rgba(#ebf8e1, 0.5), rgba(#f69d3c, 0.5));
+	z-index: 100;
+}
+
+.modal {
+	@include center-object;
+	height: 630px;
+	width: 500px;
+	border-color: #fff;
+	background-color: #fff;
+	box-shadow: 0 10px 40px -15px rgba(#777, 0.5);
+}
+
+.login {
+	@extend .modal;
+	height: 460px;
+}
+
+.button {
+	display: flex;
+	justify-content: flex-end;
+}

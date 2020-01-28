@@ -1,0 +1,21 @@
+.wrapper {
+	position: relative;
+	height: 85vh;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+		url('../../assets/images/danbo-robot.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 90%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 90%, 0 100%);
+	}
+
+	.textbox {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+}

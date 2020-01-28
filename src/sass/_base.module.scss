@@ -1,0 +1,19 @@
+/* ---------------------------- */
+/* RESET */
+/* ---------------------------- */
+body {
+	font-family: $font-family-default;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------------------------- */
+/* SCROLLBARS OFF */
+/* ---------------------------- */
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* ---------------------------- */
+/* OTHERS */
+/* ---------------------------- */

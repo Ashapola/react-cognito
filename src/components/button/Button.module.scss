@@ -1,0 +1,21 @@
+@import 'index.module.scss';
+
+.buttonClose {
+	padding: 7px 12px;
+	font-size: 1rem;
+	font-weight: 300;
+	background: none;
+	border: none;
+	color: grey;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1.6;
+	outline: none;
+
+	&:hover,
+	&:active {
+		background-color: red;
+		color: white;
+		outline: none;
+	}
+}

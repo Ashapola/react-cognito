@@ -1,0 +1,10 @@
+{
+	"api": {
+		"AWS_URL": "aws-url/your-service"
+	},
+	"cognito": {
+		"REGION": "us-west-2",
+		"POOL_ID": "us-west-2_flCJaoDig",
+		"CLIENT_ID": "159ufjrihgehb67sn373aotli7"
+	}
+}
